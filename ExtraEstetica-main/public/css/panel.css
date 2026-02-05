@@ -1,0 +1,7 @@
+.welcome-header {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+.list-group-item strong {
+    color: var(--color-militar);
+}

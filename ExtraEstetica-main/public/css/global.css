@@ -1,0 +1,27 @@
+:root {
+    --color-beige: #F5F5DC;
+    --color-blanco: #FFFFFF;
+    --color-negro: #1A1A1A;
+    --color-militar: #556B2F;
+    --color-militar-dark: #3b4d1f;
+}
+
+body {
+    background-color: var(--color-beige);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.btn-militar {
+    background-color: var(--color-militar);
+    color: white;
+    border: none;
+}
+.btn-militar:hover {
+    background-color: var(--color-militar-dark);
+    color: white;
+}
+.card-custom {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
